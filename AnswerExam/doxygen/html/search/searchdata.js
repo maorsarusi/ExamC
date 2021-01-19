@@ -1,18 +1,24 @@
 var indexSectionsWithContent =
 {
-  0: "au",
-  1: "au"
+  0: "acdpsu",
+  1: "s",
+  2: "au",
+  3: "cdp"
 };
 
 var indexSectionNames =
 {
   0: "all",
-  1: "files"
+  1: "classes",
+  2: "files",
+  3: "functions"
 };
 
 var indexSectionLabels =
 {
   0: "All",
-  1: "Files"
+  1: "Classes",
+  2: "Files",
+  3: "Functions"
 };
 

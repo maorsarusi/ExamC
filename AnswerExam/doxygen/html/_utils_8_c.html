@@ -61,14 +61,144 @@ $(function() {
 
 </div><!-- top -->
 <div class="header">
+  <div class="summary">
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">Utils.C File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="_utils_8h_source.html">Utils.h</a>&quot;</code><br />
-</div><a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<code>#include &quot;Stack.h&quot;</code><br />
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a07024c474ffedf71428b1af472fc58d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_stack__t.html">Stack</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_utils_8_c.html#a07024c474ffedf71428b1af472fc58d9">CreateStack</a> ()</td></tr>
+<tr class="memdesc:a07024c474ffedf71428b1af472fc58d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">this function create a stack  <a href="_utils_8_c.html#a07024c474ffedf71428b1af472fc58d9">More...</a><br /></td></tr>
+<tr class="separator:a07024c474ffedf71428b1af472fc58d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19f822b96f1884af75a6013aa8c5c56f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_utils_8_c.html#a19f822b96f1884af75a6013aa8c5c56f">DeleteStack</a> (<a class="el" href="struct_stack__t.html">PStack</a> **stack)</td></tr>
+<tr class="memdesc:a19f822b96f1884af75a6013aa8c5c56f"><td class="mdescLeft">&#160;</td><td class="mdescRight">this function deleting a stack  <a href="_utils_8_c.html#a19f822b96f1884af75a6013aa8c5c56f">More...</a><br /></td></tr>
+<tr class="separator:a19f822b96f1884af75a6013aa8c5c56f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ac19c91d393e18cee70f5a4eb006bfe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_utils_8_c.html#a2ac19c91d393e18cee70f5a4eb006bfe">Push</a> (<a class="el" href="struct_stack__t.html">PStack</a> stack, int val)</td></tr>
+<tr class="memdesc:a2ac19c91d393e18cee70f5a4eb006bfe"><td class="mdescLeft">&#160;</td><td class="mdescRight">this function push a variable into the stack  <a href="_utils_8_c.html#a2ac19c91d393e18cee70f5a4eb006bfe">More...</a><br /></td></tr>
+<tr class="separator:a2ac19c91d393e18cee70f5a4eb006bfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57b51175c9d08e3277c842cb2c368b5a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_utils_8_c.html#a57b51175c9d08e3277c842cb2c368b5a">Pop</a> (<a class="el" href="struct_stack__t.html">PStack</a> stack)</td></tr>
+<tr class="memdesc:a57b51175c9d08e3277c842cb2c368b5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">this function extract a variable from the stack  <a href="_utils_8_c.html#a57b51175c9d08e3277c842cb2c368b5a">More...</a><br /></td></tr>
+<tr class="separator:a57b51175c9d08e3277c842cb2c368b5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>this file contain the implementaion of the function that declares in <a class="el" href="_utils_8h.html">utils.h</a> to using <a class="el" href="_answer_exam_8_c.html">AnswerExam.C</a> </p>
-</div></div><!-- contents -->
+</div><h2 class="groupheader">Function Documentation</h2>
+<a id="a07024c474ffedf71428b1af472fc58d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07024c474ffedf71428b1af472fc58d9">&#9670;&nbsp;</a></span>CreateStack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_stack__t.html">Stack</a>* CreateStack </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>this function create a stack </p>
+<dl class="section return"><dt>Returns</dt><dd>the apperance of the stack </dd></dl>
+
+</div>
+</div>
+<a id="a19f822b96f1884af75a6013aa8c5c56f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19f822b96f1884af75a6013aa8c5c56f">&#9670;&nbsp;</a></span>DeleteStack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DeleteStack </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_stack__t.html">PStack</a> **&#160;</td>
+          <td class="paramname"><em>stack</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>this function deleting a stack </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">stack</td><td>the stack we deleting </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a57b51175c9d08e3277c842cb2c368b5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57b51175c9d08e3277c842cb2c368b5a">&#9670;&nbsp;</a></span>Pop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Pop </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_stack__t.html">PStack</a>&#160;</td>
+          <td class="paramname"><em>stack</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>this function extract a variable from the stack </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">stack</td><td>the stack we extract from it the variable </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the variable we extract </dd></dl>
+
+</div>
+</div>
+<a id="a2ac19c91d393e18cee70f5a4eb006bfe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ac19c91d393e18cee70f5a4eb006bfe">&#9670;&nbsp;</a></span>Push()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Push </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_stack__t.html">PStack</a>&#160;</td>
+          <td class="paramname"><em>stack</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>this function push a variable into the stack </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">stack</td><td>the stack we push into it </td></tr>
+    <tr><td class="paramname">val</td><td>the value we push </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+</div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1

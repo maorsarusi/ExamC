@@ -1,7 +1,84 @@
 \hypertarget{_utils_8_c}{}\doxysection{Utils.\+C File Reference}
 \label{_utils_8_c}\index{Utils.C@{Utils.C}}
 {\ttfamily \#include \char`\"{}Utils.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Stack.\+h\char`\"{}}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{struct_stack__t}{Stack}} $\ast$ \mbox{\hyperlink{_utils_8_c_a07024c474ffedf71428b1af472fc58d9}{Create\+Stack}} ()
+\begin{DoxyCompactList}\small\item\em this function create a stack \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_utils_8_c_a19f822b96f1884af75a6013aa8c5c56f}{Delete\+Stack}} (\mbox{\hyperlink{struct_stack__t}{PStack}} $\ast$$\ast$stack)
+\begin{DoxyCompactList}\small\item\em this function deleting a stack \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_utils_8_c_a2ac19c91d393e18cee70f5a4eb006bfe}{Push}} (\mbox{\hyperlink{struct_stack__t}{PStack}} stack, int val)
+\begin{DoxyCompactList}\small\item\em this function push a variable into the stack \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_utils_8_c_a57b51175c9d08e3277c842cb2c368b5a}{Pop}} (\mbox{\hyperlink{struct_stack__t}{PStack}} stack)
+\begin{DoxyCompactList}\small\item\em this function extract a variable from the stack \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \doxysubsection{Detailed Description}
 this file contain the implementaion of the function that declares in \mbox{\hyperlink{_utils_8h}{utils.\+h}} to using \mbox{\hyperlink{_answer_exam_8_c}{Answer\+Exam.\+C}} 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_utils_8_c_a07024c474ffedf71428b1af472fc58d9}\label{_utils_8_c_a07024c474ffedf71428b1af472fc58d9}} 
+\index{Utils.C@{Utils.C}!CreateStack@{CreateStack}}
+\index{CreateStack@{CreateStack}!Utils.C@{Utils.C}}
+\doxysubsubsection{\texorpdfstring{CreateStack()}{CreateStack()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_stack__t}{Stack}}$\ast$ Create\+Stack (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+this function create a stack 
+
+\begin{DoxyReturn}{Returns}
+the apperance of the stack 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_utils_8_c_a19f822b96f1884af75a6013aa8c5c56f}\label{_utils_8_c_a19f822b96f1884af75a6013aa8c5c56f}} 
+\index{Utils.C@{Utils.C}!DeleteStack@{DeleteStack}}
+\index{DeleteStack@{DeleteStack}!Utils.C@{Utils.C}}
+\doxysubsubsection{\texorpdfstring{DeleteStack()}{DeleteStack()}}
+{\footnotesize\ttfamily void Delete\+Stack (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_stack__t}{PStack}} $\ast$$\ast$}]{stack }\end{DoxyParamCaption})}
+
+
+
+this function deleting a stack 
+
+
+\begin{DoxyParams}{Parameters}
+{\em stack} & the stack we deleting \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_utils_8_c_a57b51175c9d08e3277c842cb2c368b5a}\label{_utils_8_c_a57b51175c9d08e3277c842cb2c368b5a}} 
+\index{Utils.C@{Utils.C}!Pop@{Pop}}
+\index{Pop@{Pop}!Utils.C@{Utils.C}}
+\doxysubsubsection{\texorpdfstring{Pop()}{Pop()}}
+{\footnotesize\ttfamily int Pop (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_stack__t}{PStack}}}]{stack }\end{DoxyParamCaption})}
+
+
+
+this function extract a variable from the stack 
+
+
+\begin{DoxyParams}{Parameters}
+{\em stack} & the stack we extract from it the variable \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the variable we extract 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_utils_8_c_a2ac19c91d393e18cee70f5a4eb006bfe}\label{_utils_8_c_a2ac19c91d393e18cee70f5a4eb006bfe}} 
+\index{Utils.C@{Utils.C}!Push@{Push}}
+\index{Push@{Push}!Utils.C@{Utils.C}}
+\doxysubsubsection{\texorpdfstring{Push()}{Push()}}
+{\footnotesize\ttfamily void Push (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_stack__t}{PStack}}}]{stack,  }\item[{int}]{val }\end{DoxyParamCaption})}
+
+
+
+this function push a variable into the stack 
+
+
+\begin{DoxyParams}{Parameters}
+{\em stack} & the stack we push into it \\
+\hline
+{\em val} & the value we push \\
+\hline
+\end{DoxyParams}

@@ -67,9 +67,24 @@ $(function() {
 <div class="contents">
 <a href="_utils_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef UTILS_H</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define UTILS_H</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// !UTILS_H</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160; </div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include&quot;Stack.h&quot;</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160; </div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<a class="code" href="struct_stack__t.html">Stack</a>* <a class="code" href="_utils_8h.html#a07024c474ffedf71428b1af472fc58d9">CreateStack</a>();</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_utils_8h.html#a19f822b96f1884af75a6013aa8c5c56f">DeleteStack</a>(<a class="code" href="struct_stack__t.html">PStack</a>** stack);</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_utils_8h.html#a2ac19c91d393e18cee70f5a4eb006bfe">Push</a>(<a class="code" href="struct_stack__t.html">PStack</a> stack, <span class="keywordtype">int</span> val);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="keywordtype">int</span> <a class="code" href="_utils_8h.html#a57b51175c9d08e3277c842cb2c368b5a">Pop</a>(<a class="code" href="struct_stack__t.html">PStack</a> stack);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// !UTILS_H</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
+<div class="ttc" id="a_utils_8h_html_a07024c474ffedf71428b1af472fc58d9"><div class="ttname"><a href="_utils_8h.html#a07024c474ffedf71428b1af472fc58d9">CreateStack</a></div><div class="ttdeci">Stack * CreateStack()</div><div class="ttdoc">this function create a stack</div><div class="ttdef"><b>Definition:</b> Utils.C:9</div></div>
+<div class="ttc" id="a_utils_8h_html_a19f822b96f1884af75a6013aa8c5c56f"><div class="ttname"><a href="_utils_8h.html#a19f822b96f1884af75a6013aa8c5c56f">DeleteStack</a></div><div class="ttdeci">void DeleteStack(PStack **stack)</div><div class="ttdoc">this function deleting a stack</div><div class="ttdef"><b>Definition:</b> Utils.C:18</div></div>
+<div class="ttc" id="a_utils_8h_html_a2ac19c91d393e18cee70f5a4eb006bfe"><div class="ttname"><a href="_utils_8h.html#a2ac19c91d393e18cee70f5a4eb006bfe">Push</a></div><div class="ttdeci">void Push(PStack stack, int val)</div><div class="ttdoc">this function push a variable into the stack</div><div class="ttdef"><b>Definition:</b> Utils.C:32</div></div>
+<div class="ttc" id="a_utils_8h_html_a57b51175c9d08e3277c842cb2c368b5a"><div class="ttname"><a href="_utils_8h.html#a57b51175c9d08e3277c842cb2c368b5a">Pop</a></div><div class="ttdeci">int Pop(PStack stack)</div><div class="ttdoc">this function extract a variable from the stack</div><div class="ttdef"><b>Definition:</b> Utils.C:53</div></div>
+<div class="ttc" id="astruct_stack__t_html"><div class="ttname"><a href="struct_stack__t.html">Stack_t</a></div><div class="ttdef"><b>Definition:</b> Stack.h:7</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
